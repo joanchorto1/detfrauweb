@@ -9,7 +9,7 @@
     <meta name="description" content="Serveis d'investigació personalitzats per a empreses. Protegeix el teu negoci amb DETFRAU Investigacions. Investigació de competència, prevenció de fraus, recerca de falsificacions, investigacions laborals, seguretat i vigilància." />
   </head>
 <div class="bg-stone-900 min-h-screen">
-  <div data-aos="fade-left" class="flex flex-col items-center justify-center w-full  text-center p-10 space-y-10 hero bg-no-repeat bg-cover bg-center" style="background-image: url('/src/assets/homebanner2_Mesa de trabajo 1.jpg'); height: 50vh">
+  <div data-aos="fade-left" class="flex flex-col items-center justify-center w-full  text-center p-10 space-y-10 hero bg-no-repeat bg-cover bg-center" >
     <h1 class="md:text-5xl lg:text-5xl text-3xl font-bold text-gray-50 uppercase">Serveis d'Investigació Personalitzats per a Empreses</h1>
     <h2 class="md:text-4xl lg:text-4xl text-2xl font-bold text-amber-500 uppercase">Protegeix el teu Negoci amb DETFRAU Investigacions</h2>
   </div>

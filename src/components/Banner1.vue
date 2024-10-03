@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="flex flex-col items-center hero h-96 justify-center content-center text-center p-10bg-no-repeat bg-cover bg-top" style="background-image: url('/src/assets/homebanner.jpg'); height: 50vh">
+<div class="flex flex-col items-center hero h-96 justify-center content-center text-center p-10bg-no-repeat bg-cover bg-top" >
   <div class="flex flex-col w-3/4 space-y-5 items-center text-center">
     <h1 class="text-4xl text-gray-50 font-bold uppercase">DETFRAU INVESTIGACIONS</h1>
     <h2 class="text-3xl font-semibold uppercase text-amber-500">La teva agència de detectius privats de confiança</h2>

@@ -9,7 +9,7 @@
     <meta name="description" content="Investigacions personalitzades per a particulars. Detectius privats a Tarragona i Castelló. Resol els teus temes personals amb DetFrau Investigacions." />
   </head>
   <div class="bg-stone-900 w-full min-h-screen">
-      <div  data-aos="fade-left" class="hero flex flex-col items-center justify-center w-full  text-center p-10 space-y-10  bg-no-repeat bg-cover bg-center" style="background-image: url('/src/assets/empresa-header_Mesa de trabajo 1.jpg'); height: 50vh">
+      <div  data-aos="fade-left" class="hero flex flex-col items-center justify-center w-full  text-center p-10 space-y-10  bg-no-repeat bg-cover bg-center" >
         <h1 class="md:text-5xl lg:text-5xl text-3xl font-bold text-gray-50 uppercase">Investigacions Personalitzades per a Particulars</h1>
         <h2 class="md:text-4xl lg:text-4xl text-2xl font-bold text-amber-500 uppercase">Resol els teus Temes Personals amb DetFrau Investigacions</h2>
       </div>
