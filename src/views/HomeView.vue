@@ -15,11 +15,11 @@ import Resenyes from "@/components/Resenyes.vue";
   </head>
   <main class="w-full">
     <Banner1 />
-    <Welcome/>
-    <Serveis/>
-    <Cta/>
-    <Mapa/>
-    <Resenyes/>
+    <Welcome data-aos="fade-up"/>
+    <Serveis data-aos="fade-up"/>
+    <Cta data-aos="zoom-in"/>
+    <Mapa data-aos="fade-ip"/>
+    <Resenyes data-aos="fade-up"/>
 
   </main>
 </template>
