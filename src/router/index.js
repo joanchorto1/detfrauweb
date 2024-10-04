@@ -7,6 +7,8 @@ import ContecteView from "@/views/ContecteView.vue";
 import DetectivePrivadoTarragona from "@/views/articles/DetectivePrivadoTarragona.vue";
 import DetectiveInfidelidadCastellon from "@/views/articles/DetectiveInfidelidadCastellon.vue";
 import DetectivePrivadoTTEE from "@/views/articles/DetectivePrivadoTTEE.vue";
+import MejoresDetectivesTgn2024 from "@/views/articles/MejoresDetectivesTgn2024.vue";
+import GiaContratarInvPriv2024 from "@/views/articles/GiaContratarInvPriv2024.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -53,6 +55,16 @@ const router = createRouter({
       path: '/detectiu-privat-terres-de-lebre',
       name: 'detectiu_te',
       component: DetectivePrivadoTTEE
+    },
+    {
+      path: '/mejor-detective-privado-tarragona-2024',
+        name: 'detectiu_mejor',
+      component: MejoresDetectivesTgn2024
+    },
+    {
+      path: '/como-contratar-un-detective-privado-tarragona',
+        name: 'detectiu_contratar',
+      component: GiaContratarInvPriv2024
     }
 
 
