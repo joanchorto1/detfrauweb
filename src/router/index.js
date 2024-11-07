@@ -70,7 +70,7 @@ const router = createRouter({
       component: GiaContratarInvPriv2024
     },
     {
-      path: '/investigador-privado-tortosas',
+      path: '/investigador-privado-tortosa',
         name: 'detectiu_tortosa',
         component: DetectivePrivadoTortosa
     },
