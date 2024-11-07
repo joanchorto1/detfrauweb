@@ -9,6 +9,8 @@ import DetectiveInfidelidadCastellon from "@/views/articles/DetectiveInfidelidad
 import DetectivePrivadoTTEE from "@/views/articles/DetectivePrivadoTTEE.vue";
 import MejoresDetectivesTgn2024 from "@/views/articles/MejoresDetectivesTgn2024.vue";
 import GiaContratarInvPriv2024 from "@/views/articles/GiaContratarInvPriv2024.vue";
+import DetectivePrivadoCatalunyaTarragona from "@/views/articles/DetectivePrivadoCatalunyaTarragona.vue";
+import DetectivePrivadoTortosa from "@/views/articles/DetectivePrivadoTortosa.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -65,6 +67,21 @@ const router = createRouter({
       path: '/como-contratar-un-detective-privado-tarragona',
         name: 'detectiu_contratar',
       component: GiaContratarInvPriv2024
+    },
+    {
+      path: '/investigador-privado-tortosas',
+        name: 'detectiu_tortosa',
+        component: DetectivePrivadoTortosa
+    },
+    {
+      path: '/investigador-privado-cataluña-tarragona',
+        name: 'detectiu_catalunya_tarragona',
+        component: DetectivePrivadoCatalunyaTarragona
+    },
+    {
+      path: '/baja-laboral-fingida',
+        name: 'detectiu_baja',
+      component: BajaLaboralFingida
     }
 
 
