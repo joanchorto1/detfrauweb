@@ -11,6 +11,7 @@ import MejoresDetectivesTgn2024 from "@/views/articles/MejoresDetectivesTgn2024.
 import GiaContratarInvPriv2024 from "@/views/articles/GiaContratarInvPriv2024.vue";
 import DetectivePrivadoCatalunyaTarragona from "@/views/articles/DetectivePrivadoCatalunyaTarragona.vue";
 import DetectivePrivadoTortosa from "@/views/articles/DetectivePrivadoTortosa.vue";
+import BajaLaboralFingida from "@/views/articles/BajaLaboralFingida.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
