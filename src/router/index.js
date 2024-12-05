@@ -83,6 +83,21 @@ const router = createRouter({
       path: '/baja-laboral-fingida',
         name: 'detectiu_baja',
       component: BajaLaboralFingida
+    },
+    {
+      path:'/detective-privado-lleida',
+      name:'detectiu_lleida',
+        component: () => import('@/views/articles/DetectivePrivadoLleida.vue')
+    },
+    {
+      path:'/servicios-investigacion-privada-tarragona',
+        name:'detectiu_servicios',
+        component: () => import('@/views/articles/ServeisInvestigacióTarragona.vue')
+    },
+    {
+      path:'/detective-privado-lleida',
+        name:'detectiu_lleida',
+        component: () => import('@/views/articles/DetectivePrivadoLleida.vue')
     }
 
 
